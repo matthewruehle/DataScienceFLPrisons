@@ -1,5 +1,6 @@
 # Does what it says on the tin.
-# Notoe that it takes a while to read all the mdb thingies.
+# Note that it takes a while to read all the mdb thingies.
+# To run pandas_access successfully, install mdbtools through whatever you need.
 # -Matt
 
 import pandas
@@ -18,3 +19,4 @@ if __name__ == "__main__":
 		
 	for table in table_list[0:2]: #doing more makes it take forever.
 		tables_dict[table] = pandas_access.read_table(DATASET, table)
+
