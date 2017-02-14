@@ -23,7 +23,7 @@ Our source notebook contains statistics for a larger number of tattoos and crime
 
 ![pruned results](pics/results_pruned.png)
 
-Here, we can further see how inmates with different styles of tattoo deviate from the norm, and by varying amounts. Murder, as a whole was barely affected by tattoo choice, making it common ground for all sorts of groups; theft, on the other hand, strayed much further from the average, with  wildly varying rates based on the tattoo type.
+Here, we can further see how inmates with different styles of tattoo deviate from the norm, and by varying amounts. Murder, as a whole was barely affected by tattoo choice, making it common ground for all sorts of groups; theft, on the other hand, strayed much further from the average, with  wildly varying rates based on the tattoo type (or, in fact, having any tattoos at all).
 
 The article additionally noted that people with tattoos on their faces or necks are, perhaps surprisingly, comparatively less likely to have committed murder. This is consistent with our own analysis, which found that, while 15.3% of active inmates without such tattoos had murder convictions, only 11.2% of those with such "visible" tattoos were in prison on similar charges - a nearly 37% gap.
 
