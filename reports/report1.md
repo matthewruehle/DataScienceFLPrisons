@@ -12,7 +12,7 @@ To begin with, we sanitize and collate the database of inmates and convictions -
 
 Similar methods - alongside a few personal judgment calls - are used to further classify specific convictions into overall trends; a variety of different convictions fit into a catch-all of "theft." Now, knowing the frequency of both crime types and tattoo varieties in the Florida inmate population, we can compare the relative frequencies of crime-tattoo pairings relative to the population at-large. Such comparisons are further extendable to the recorded locations of tattoos (e.g., "HEAD," "RIGHT ARM"), allowing us to generate our final results.
 
-To see the entirety of our methods, our source code can be found [here](../code/report1.ipynb).
+To see the entirety of our methods, our source code can be found [here](https://github.com/matthewruehle/DataScienceFLPrisons/blob/master/code/report1.ipynb).
 
 R:
 The Economist’s results were presented almost entirely as relative frequencies, without a great deal of context. Their graphic shows that inmates with tattoos were "less likely" to have committed murder, but it is not by how much. We discovered that comparing the percentage of people with a specific tattoo to the percentage of people without that class of tattoo closely matched the Economist results.
