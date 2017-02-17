@@ -1,5 +1,8 @@
-## Murder, Ink.
-### A statistical analysis of tattoos in the Florida prison system
+### Murder, Ink
+
+#### A statistical analysis of tattoos in the Florida prison system
+
+##### Joey Maalouf, Matthew Ruehle, Sean Carter
 
 Q:
 Our primary goal is to reproduce the results found in this [Economist article](http://www.economist.com/news/christmas-specials/21712032-what-can-be-learned-prisoners-tattoos-statistical-analysis-art), and to provide more access to the methods used to generate the results than the original article. To do so, we analyze data released by the [Florida Department of Corrections](http://www.dc.state.fl.us/pub/obis_request.html) to find which tattoos serve as indicators that a given inmate may have committed specific crimes.
