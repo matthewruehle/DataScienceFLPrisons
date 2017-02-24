@@ -9,11 +9,11 @@ Our primary goal is to reproduce the results found in this [Economist article](h
 
 #### Methodology
 
-Our methods are shaped by the claims posited in the aforementioned Economist article <body>&mdash;</body> in particular, with looking at the correlation between crimes, types, and locations of tattoos in the Florida prison database.
+Our methods are shaped by the claims posited in the aforementioned Economist article; in particular, looking at the correlation between crimes and types of tattoos in the Florida prison database.
 
-To begin with, we sanitize and collate the database of inmates and convictions <body>&mdash;</body> tracking aliases, or multiple offenses, with the Department of Corrections ID numbers provided. We then parse through the entries in a table on scars and marks <body>&mdash;</body> containing information on both tattoo designs and locations <body>&mdash;</body> and roughly categorize the wide variety of descriptions into a more manageable number of classes: for example, adding any entries containing phrases like "CROSS", "HOLY", "ANGEL", "JESUS", or "PRAY" to our internal "Christian" category.
+To begin with, we sanitize and collate the database of inmates and convictions, tracking aliases, or multiple offenses, with the Department of Corrections ID numbers provided. We then parse through the entries in a table on scars and marks (containing information on both tattoo designs and locations) and roughly categorize the wide variety of descriptions into a more manageable number of classes: for example, adding any entries containing phrases like "CROSS", "HOLY", "ANGEL", "JESUS", or "PRAY" to our internal "Christian" category.
 
-Similar methods <body>&mdash;</body> alongside a few personal judgment calls <body>&mdash;</body> are used to further classify specific convictions into overall trends; a variety of different convictions fit into a catch-all of "theft." Now, knowing the frequency of both crime types and tattoo varieties in the Florida inmate population, we can compare the relative frequencies of crime-tattoo pairings relative to the population at-large. Such comparisons are further extensible to the recorded locations of tattoos (e.g., "HEAD," "RIGHT ARM"), allowing us to generate our final results.
+We used similar methods (along with a few personal judgment calls) to further classify specific convictions into overall trends; for example, a variety of different convictions related to burglary fit into a catch-all of "theft." Now, knowing the frequency of both crime types and tattoo varieties in the Florida inmate population, we can compare the relative frequencies of crime-tattoo pairings relative to the population at-large. Such comparisons are further extensible to the recorded locations of tattoos (e.g., "HEAD," "RIGHT ARM"), allowing us to generate our final results.
 
 To see the entirety of our methods, our source code can be found [here](https://github.com/matthewruehle/DataScienceFLPrisons/blob/master/code/report1.ipynb).
 
@@ -30,7 +30,7 @@ Our source notebook contains statistics for a larger number of tattoos and crime
 
 ![pruned results](pics/results_pruned.png)
 
-Here, we can further see how inmates with different styles of tattoo deviate from the norm, and by varying amounts. Murder, as a whole was barely affected by tattoo choice, making it common ground for all sorts of groups; theft, on the other hand, strayed much further from the average, with  wildly varying rates based on the tattoo type (or, in fact, having any tattoos at all).
+Here, we can further see how inmates with different styles of tattoo deviate from the norm, and by varying amounts. Murder as a whole was barely affected by tattoo choice, making it common ground for all sorts of groups; theft, on the other hand, strayed much further from the average, with  wildly varying rates based on the tattoo type or even just presence.
 
 The article additionally noted that people with tattoos on their faces or necks are, perhaps surprisingly, comparatively less likely to have committed murder. This is consistent with our own analysis, which found that, while 15.3% of active inmates without such tattoos had murder convictions, only 11.2% of those with such "visible" tattoos were in prison on similar charges; a nearly 37% gap.
 
