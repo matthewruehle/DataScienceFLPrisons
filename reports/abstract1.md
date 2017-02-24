@@ -1,4 +1,4 @@
-## Murder, Ink - A statistical analysis of tattoos in the Florida prison system
+## Murder, Ink <body>&mdash;</body> A statistical analysis of tattoos in the Florida prison system
 
 Joey Maalouf, Matthew Ruehle, Sean Carter
 
