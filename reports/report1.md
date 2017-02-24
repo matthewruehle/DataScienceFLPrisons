@@ -1,4 +1,4 @@
-## Murder, Ink -  A statistical analysis of tattoos in the Florida prison system
+## Murder, Ink <body>&mdash;</body>  A statistical analysis of tattoos in the Florida prison system
 
 Joey Maalouf, Matthew Ruehle, Sean Carter
 
@@ -9,11 +9,11 @@ Our primary goal is to reproduce the results found in this [Economist article](h
 
 #### Methodology
 
-Our methods are shaped by the claims posited in the aforementioned Economist article - in particular, with looking at the correlation between crimes, types, and locations of tattoos in the Florida prison database.
+Our methods are shaped by the claims posited in the aforementioned Economist article <body>&mdash;</body> in particular, with looking at the correlation between crimes, types, and locations of tattoos in the Florida prison database.
 
-To begin with, we sanitize and collate the database of inmates and convictions - tracking aliases, or multiple offenses, with the Department of Corrections ID numbers provided. We then parse through the entries in a table on scars and marks - containing information on both tattoo designs and locations - and roughly categorize the wide variety of descriptions into a more manageable number of classes: for example, adding any entries containing phrases like "CROSS", "HOLY", "ANGEL", "JESUS", or "PRAY" to our internal "Christian" category.
+To begin with, we sanitize and collate the database of inmates and convictions <body>&mdash;</body> tracking aliases, or multiple offenses, with the Department of Corrections ID numbers provided. We then parse through the entries in a table on scars and marks <body>&mdash;</body> containing information on both tattoo designs and locations <body>&mdash;</body> and roughly categorize the wide variety of descriptions into a more manageable number of classes: for example, adding any entries containing phrases like "CROSS", "HOLY", "ANGEL", "JESUS", or "PRAY" to our internal "Christian" category.
 
-Similar methods - alongside a few personal judgment calls - are used to further classify specific convictions into overall trends; a variety of different convictions fit into a catch-all of "theft." Now, knowing the frequency of both crime types and tattoo varieties in the Florida inmate population, we can compare the relative frequencies of crime-tattoo pairings relative to the population at-large. Such comparisons are further extensible to the recorded locations of tattoos (e.g., "HEAD," "RIGHT ARM"), allowing us to generate our final results.
+Similar methods <body>&mdash;</body> alongside a few personal judgment calls <body>&mdash;</body> are used to further classify specific convictions into overall trends; a variety of different convictions fit into a catch-all of "theft." Now, knowing the frequency of both crime types and tattoo varieties in the Florida inmate population, we can compare the relative frequencies of crime-tattoo pairings relative to the population at-large. Such comparisons are further extensible to the recorded locations of tattoos (e.g., "HEAD," "RIGHT ARM"), allowing us to generate our final results.
 
 To see the entirety of our methods, our source code can be found [here](https://github.com/matthewruehle/DataScienceFLPrisons/blob/master/code/report1.ipynb).
 
@@ -36,9 +36,9 @@ The article additionally noted that people with tattoos on their faces or necks 
 
 #### Interpretation
 
-These results, matching numerous categories to crimes, are difficult to summarize in full; however, several noteworthy relationships stand out. For example, in figure 2, we can see the relatively greater share of murders committed by people without tattoos compared to inmates with Christian or otherwise religious body art. This pattern, meanwhile, is reversed in the case of theft. Although the exact relationship is difficult to determine - especially because we do not know the dates of arrests, crimes, or tattoos - it nonetheless seems reasonable to suspect that many murderers are "atypical" criminals--people who struck out in a moment of rage or passion; contemporary religious attitudes towards forgiveness and extreme conduct, furthermore, might well justify the overrepresentation of Christian symbolism amongst non-violent thieves.
+These results, matching numerous categories to crimes, are difficult to summarize in full; however, several noteworthy relationships stand out. For example, in figure 2, we can see the relatively greater share of murders committed by people without tattoos compared to inmates with Christian or otherwise religious body art. This pattern, meanwhile, is reversed in the case of theft. Although the exact relationship is difficult to determine <body>&mdash;</body> especially because we do not know the dates of arrests, crimes, or tattoos <body>&mdash;</body> it nonetheless seems reasonable to suspect that many murderers are "atypical" criminals <body>&mdash;</body> people who struck out in a moment of rage or passion; contemporary religious attitudes towards forgiveness and extreme conduct, furthermore, might well justify the overrepresentation of Christian symbolism amongst non-violent thieves.
 
-In most regards, our results concur with those presented by the Economist - save for a few small differences, likely attributable to our methods of categorization. For example, the article notes that people with "three dots" tattoos are significantly more likely to have committed murder; our own results, meanwhile, suggest only a slight overrepresentation. The article, furthermore, states that there is a roughly 30% gap between murderers with and without head or neck tattoos; this also differs from our results, though again only by degrees.
+In most regards, our results concur with those presented by the Economist <body>&mdash;</body> save for a few small differences, likely attributable to our methods of categorization. For example, the article notes that people with "three dots" tattoos are significantly more likely to have committed murder; our own results, meanwhile, suggest only a slight overrepresentation. The article, furthermore, states that there is a roughly 30% gap between murderers with and without head or neck tattoos; this also differs from our results, though again only by degrees.
 
 Potential risks to this study include the potential for overfitting. The numerous tattoos and crimes, coupled with the size disparity between categories (e.g., some 138,000 Christian tattoos, to just over 4,000 "Laugh Now, Cry Later" ones), could show us trends where none truly exist.
 
